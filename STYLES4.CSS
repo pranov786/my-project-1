@@ -1,0 +1,79 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e9ecef; /* Light gray background */
+    color: #333;
+}
+
+header {
+    background: #343a40; /* Darker background for header */
+    color: #fff;
+    padding: 20px 0; /* Increased padding for header */
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4; /* Light hover color */
+}
+
+h1, h2, h3 {
+    margin: 20px 0;
+}
+
+#car-details {
+    background: #fff; /* White background for details section */
+    padding: 30px; /* Increased padding */
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery {
+    display: grid; /* Use CSS Grid for layout */
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 10px; /* Space between images */
+}
+
+.gallery img {
+    width: 100%; /* Full width of the grid cell */
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s; /* Added transition for box shadow */
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0; /* Increased padding for footer */
+    background: #343a40; /* Dark background for footer */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,160 @@
+/* Comment section container */
+#comments {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+#comments h2 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Comment list container */
+#comment-list {
+  margin-bottom: 20px;
+}
+
+/* Single comment block */
+.comment {
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.comment strong {
+  color: #555;
+  font-weight: bold;
+}
+
+/* Form input fields */
+.form-group {
+  margin-bottom: 15px;
+}
+
+#comment-form input, #comment-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+#comment-form input:focus, #comment-form textarea:focus {
+  border-color: #666;
+  outline: none;
+}
+
+/* Textarea styling */
+#comment-form textarea {
+  resize: none;
+  min-height: 100px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Submit button styling */
+.submit-btn {
+  background-color: #333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #555;
+}
+
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #565555; 
+  }
+  
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #cars {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .car {
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth pop effect */
+  }
+  
+  .car img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth image scaling */
+  }
+  
+  .car:hover {
+    transform: translateY(-10px); /* Pop the whole card up slightly */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add shadow for depth effect */
+  }
+  
+  .car:hover img {
+    transform: scale(1.05); /* Slightly scale up the image for a 3D effect */
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+  }
+  
